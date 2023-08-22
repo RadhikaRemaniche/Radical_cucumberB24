@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions;
     plugin = {
         "pretty",                           // Prints the Gherkin steps in a readable format
         "html:target/cucumber-htmlreport.html",     // Generates HTML report
-        "json:target/cucumber-report12311.json",
+        "json:target/cucumber-report6.json",
         "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:target/ExtentReport1.html"// Generates JSON report
     }
 )
